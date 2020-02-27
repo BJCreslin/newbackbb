@@ -73,6 +73,9 @@ let store: React.PropsWithRef<any> = {
                 "status": "BUSY"
             }
         ]
+    },
+    getState() {
+        return this._state;
     }
 };
 
